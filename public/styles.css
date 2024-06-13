@@ -1,2 +1,19 @@
-body{
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+  margin-top: 2rem;
+}
+
+.card-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; /* Allow cards to wrap */
+}
+
+
+.col{
+  margin: 20px;
 }
