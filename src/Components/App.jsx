@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CardFlex from './CardFlex.jsx';
+import NavBar from './NavBar.jsx';
 
 const year = new Date().getFullYear();
 
@@ -10,9 +11,9 @@ function App() {
       <div>
         <p>Hot Beans {year} </p>
       </div>
-      <CardFlex/>
+      <NavBar />
     </div>
-    
+
   );
 }
 

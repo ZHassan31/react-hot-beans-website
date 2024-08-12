@@ -3,12 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import EmployeeCard from './employeeCard.jsx';
-import Employees from './Employees.js';
+import Employees from '../Employees.js';
 
 function createCard(contact) {
   return (
     <Col >
-      <EmployeeCard 
+      <EmployeeCard
         name={contact.name}
         Img={contact.Img}
         bio={contact.bio}

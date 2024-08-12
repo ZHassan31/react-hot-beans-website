@@ -2,7 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust as needed */
+  height: 100vh;
+  /* Adjust as needed */
   margin-top: 2rem;
 }
 
@@ -10,10 +11,16 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap; /* Allow cards to wrap */
+  flex-wrap: wrap;
+  /* Allow cards to wrap */
 }
 
 
-.col{
+.col {
   margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  background-color: black;
 }
