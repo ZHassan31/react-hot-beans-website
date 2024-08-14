@@ -1,0 +1,15 @@
+/* Footer.css */
+.footer {
+    background-color: lightblue;
+    /* Light blue background */
+    padding: 10px;
+    /* Add some padding */
+    text-align: center;
+    /* Center the text */
+    position: fixed;
+    /* Fix the position */
+    bottom: 0;
+    /* Align to the bottom of the screen */
+    width: 100%;
+    /* Full width */
+}
