@@ -10,6 +10,10 @@
     /* Fix the position */
     bottom: 0;
     /* Align to the bottom of the screen */
-    width: 100%;
-    /* Full width */
+    left: 0;
+    /* Ensure it starts from the left edge */
+    width: 100vw;
+    /* Full viewport width */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
 }
