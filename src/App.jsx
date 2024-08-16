@@ -5,7 +5,6 @@ import Contact from "./pages/Contact";
 import Layout from "./Layout";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import NoPage from "./pages/noPage"; // Corrected component name
-
 const year = new Date().getFullYear();
 
 function App() {
